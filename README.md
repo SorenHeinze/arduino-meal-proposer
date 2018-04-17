@@ -23,3 +23,5 @@ Thus I have to swap information from the flash-memory into the working memory ju
 
 This leads to some rather "weird constructs" in the code and it is described in detail in
 ==>> HERE THE FILE WITH THE MEMORY PROBLEM
+
+=> Another test
