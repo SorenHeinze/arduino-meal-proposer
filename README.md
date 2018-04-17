@@ -18,6 +18,6 @@ I used an Arduino, two buttons and a LCD display. Details of the setup can be fo
 ATTENTION:
 The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was not possible to hold all this information at the same time in the working memory.  
 Thus I have to swap information from the flash-memory into the working memory just when it is needed.  
-This leads to some rather "weird constructs" in the code and this challenge and the solution are described in detail in "01_read_from_flash_memory.txt"
+This leads to some rather "weird constructs" in the code and this challenge and the solution are described in detail in "01_read_from_flash_memory.c"
 
 Some less significant things (e.g. how to get a really random number) are described as comments in the code.
