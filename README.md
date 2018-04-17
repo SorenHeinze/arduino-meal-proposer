@@ -1,7 +1,7 @@
 AT THE MOMENT I USE THIS REPOSITORY TO LEARN HOW TO USE GIT ON THE COMMAND LINE
 
 # arduino-meal-proposer
-**Problem**: 
+**Problem**:  
 You know how to cook many things but always end up with the same stuff?
 
 Because a usual weekday morning does leave little time to pull out the correct cooking book to figure out which ingrediences are needed. 
@@ -9,11 +9,11 @@ Because there are far too many bookmarks in said book and the meal in question i
 Because one simply forgets some of the less regularly cooked meals.
 And why does it always have to be me to come up with an idea for what to eat?
 
-**Solution**: 
+**Solution**:  
 Let modern technology help you remember all the other things you can cook and take away one of these everyday struggles.
 
 
-**Comments**
+**Comments**:  
 I used an Arduino, two buttons and a LCD display. Details of the setup can be found in "00_arduino_setup.txt"
 
 ATTENTION:
