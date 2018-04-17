@@ -21,3 +21,5 @@ Thus I have to swap information from the flash-memory into the working memory ju
 This leads to some rather "weird constructs" in the code and this challenge and the solution are described in detail in "01_read_from_flash_memory.c"
 
 Some less significant things (e.g. how to get a really random number) are described as comments in the code.
+
+One last comment: The code and the comments were written for non-regular-C programmers. So many things I comment are probably quite obvious for more experienced people.
