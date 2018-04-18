@@ -1,4 +1,5 @@
 NOT FINISHED YET!
+THE SETUP FILE IS STILL MISSING
 
 # arduino-meal-proposer
 **Problem**:  
@@ -12,10 +13,23 @@ And why does it always have to be me to come up with an idea for what to eat?
 **Solution**:  
 Let modern technology help you remember all the other things you can cook and take away one of these everyday struggles.
 
+**What you'll get**:  
+When you have finished this project, a cool looking blue glowing LCD display will show a randomly picked meal.
+
+If you don't like it, just press the "next"-button and another (random) meal will be displayed.
+
+If you like it, press the "ok"-button and a list with the ingrediences will be shown.
+
+Since one often has more time at the weekend to prepare more elaborated meals, these are distinguished from weekday meals.
+
+
 **Comments**:  
 I used an Arduino, two buttons and a LCD display. Details of the setup can be found in "00_arduino_setup.txt"
 
 The actual program to be uploaded to the arduino is "meal_proposer.ino" in the respective folder (you may have guessed this ;) ).
+
+The definitions of the meals and the lists with the ingrediences need to be filled in the code that will be uploaded to the arduino.
+Two examples are given in the code.
 
 The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was not possible to hold all this information at the same time in the working memory.  
 Thus I have to swap information from the flash-memory into the working memory just when it is needed.  
@@ -23,8 +37,4 @@ This leads to some rather "weird constructs" in the code. Thus this challenge an
 
 Some less significant things (e.g. how to get a really random number) are described as comments in the code.
 
-One last comment: The code and the comments were written for non-regular-C programmers. So many things I comment are probably quite obvious for more experienced people.
-
-==>> THE CONTENT OF THE .C-FILES NEEDS TO BE COPIED INTO THE ARDUINO GUI AND UPLOADED
-==>> I WAS 
-==>> OR CHANGE .C- TO .INO-FILES???
+One last comment: The code and the comments were written for non-regular-C programmers. Hence many things I comment are probably quite obvious for more experienced people.

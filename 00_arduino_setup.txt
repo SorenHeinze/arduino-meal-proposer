@@ -1,0 +1,4 @@
+
+
+DON'T CONNECT analogRead(0)
+=> THIS IS USED FOR RANDOMNESS!
