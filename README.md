@@ -15,11 +15,16 @@ Let modern technology help you remember all the other things you can cook and ta
 **Comments**:  
 I used an Arduino, two buttons and a LCD display. Details of the setup can be found in "00_arduino_setup.txt"
 
-ATTENTION:
+The actual program to be uploaded to the arduino is "meal_proposer.ino" in the respective folder (you may have guessed this ;) ).
+
 The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was not possible to hold all this information at the same time in the working memory.  
 Thus I have to swap information from the flash-memory into the working memory just when it is needed.  
-This leads to some rather "weird constructs" in the code and this challenge and the solution are described in detail in "01_read_from_flash_memory.c"
+This leads to some rather "weird constructs" in the code. Thus this challenge and the solution are described in detail in "read_from_flash_memory.ino" in the respective folder.
 
 Some less significant things (e.g. how to get a really random number) are described as comments in the code.
 
 One last comment: The code and the comments were written for non-regular-C programmers. So many things I comment are probably quite obvious for more experienced people.
+
+==>> THE CONTENT OF THE .C-FILES NEEDS TO BE COPIED INTO THE ARDUINO GUI AND UPLOADED
+==>> I WAS 
+==>> OR CHANGE .C- TO .INO-FILES???
