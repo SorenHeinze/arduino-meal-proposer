@@ -1,4 +1,4 @@
-//        "arduino-meal-proposer" (v0.7)
+//        "arduino-meal-proposer" (v0.5)
 //        Copyright 2018 Soren Heinze
 //        soerenheinze@gmx.de
 //        5B1C 1897 560A EF50 F1EB 2579 2297 FAE4 D9B5 2A35

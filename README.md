@@ -28,7 +28,7 @@ I used an Arduino, two buttons and a LCD display. Details of the setup can be fo
 
 The actual program to be uploaded to the arduino is "meal_proposer.ino" in the respective folder (you may have guessed this ;) ).
 
-The definitions of the meals and the lists with the ingrediences need to be filled in the code that will be uploaded to the arduino.
+The meal names and the lists with the ingrediences need to be included in the code that will be uploaded to the arduino.
 Two examples are given in the code.
 
 The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was not possible to hold all this information at the same time in the working memory.  
