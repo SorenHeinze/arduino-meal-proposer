@@ -1,11 +1,8 @@
-NOT FINISHED YET!
-THE SETUP FILE IS STILL MISSING
-
 # arduino-meal-proposer
 **Problem**:  
 You know how to cook many things but always end up with the same stuff?
 
-Because a usual weekday morning does leave little time to pull out the correct cooking book to figure out which ingrediences are needed.  
+Because a usual weekday morning leaves little time to pull out the correct cooking book to figure out which ingrediences are needed.  
 Because there are far too many bookmarks in said book and the meal in question is not to be found within this short moment between making lunch for the offspring and going to work.  
 Because one simply forgets some of the less regularly cooked meals.  
 And why does it always have to be me to come up with an idea for what to eat?  
@@ -31,10 +28,10 @@ The actual program to be uploaded to the arduino is "meal_proposer.ino" in the r
 The meal names and the lists with the ingrediences need to be included in the code that will be uploaded to the arduino.
 Two examples are given in the code.
 
-The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was not possible to hold all this information at the same time in the working memory.  
-Thus I have to swap information from the flash-memory into the working memory just when it is needed.  
+The Arduino I used had a limited working memory. At the same time I have quite long strings (the lists with the ingrediences for each meal). It was is not possible to hold all this information at the same time in the working memory.  
+Thus I have to swap information from the program/flash-memory into the working memory just when it is needed.  
 This leads to some rather "weird constructs" in the code. Thus this challenge and the solution are described in detail in "read_from_flash_memory.ino" in the respective folder.
 
 Some less significant things (e.g. how to get a really random number) are described as comments in the code.
 
-One last comment: The code and the comments were written for non-regular-C programmers. Hence many things I comment are probably quite obvious for more experienced people.
+One last comment: The code and the comments were written for interested people that are non-regular-C programmers. Hence many things I comment are probably quite obvious for more experienced people.

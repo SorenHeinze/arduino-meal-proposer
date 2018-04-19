@@ -1,4 +1,11 @@
 
+Board: Makerduino UNO v3.0 with 
+Processor: Atmel Mega 328P
+From: makerstudio
 
-DON'T CONNECT analogRead(0)
-=> THIS IS USED FOR RANDOMNESS!
+Display: 16x2 LCD Display
+	=> The code is adjusted to these limitations.
+
+I used in addition an Electronic Brick Shield v1.1 (also from makerstudio) since it had easy to use pins for the I2C LCD connection.
+
+Two push buttons, connected to digital pins 3 and 4
