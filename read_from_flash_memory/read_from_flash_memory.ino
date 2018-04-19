@@ -131,7 +131,8 @@ const char foo_2[] PROGMEM = "foo_2foo_2foo_2foo_2foo_2foo_2foo_2foo_2foo_2foo_2
 // ATTENTION: Here it is important to use char* (with the star) since 
 // these are pointers.
 // 
-// "const" appears twice for a reason.
+// "const" appears twice for a reason because I have an array of messages 
+// and must tell the compiler that each one of them is const. 
 // See here https://github.com/arduino/Arduino/wiki/1.6-Frequently-Asked-Questions
 const char* const bar[] PROGMEM = {foo_1, foo_2};
 
