@@ -9,3 +9,7 @@ Display: 16x2 LCD Display
 I used in addition an Electronic Brick Shield v1.1 (also from makerstudio) since it had easy to use pins for the I2C LCD connection.
 
 Two push buttons, connected to digital pins 3 and 4
+
+ATTENTION: DON'T CONNECT ANALOG PIN 0. 
+	=> It needs to be "free" to be able to "produce randomness"
+	=> See the comment to get_meal_number() in meal_proposer.ino

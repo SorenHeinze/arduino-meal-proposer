@@ -44,7 +44,7 @@ LiquidCrystal lcd(0);
 // // // // // // // WEEKDAY MEALS NAMES  // // // // // // // 
 // // // // // // // // // // // // // // // // // // // // // 
 
-// Name of meal not longer then this:    123456789 123456789 123456789 12
+// Name of meal not longer then this:  123456789 123456789 123456789 12
 const char weekdaymeal_01[] PROGMEM = "Favorite Weekdy Meal ONE";
 const char weekdaymeal_02[] PROGMEM = "Favorit Weekday Meal TWO";
 
@@ -82,7 +82,7 @@ weekendmeal_01, weekendmeal_02
 
 // ATTENTION: Limited number of characters: 200.
 // (see comment below regarding the definition of the "buffer" variable)
-// (
+
 // This is to figure out the length of the string, so that it doesn't get too long:
 // ------------------------------------------------1     5     10                20                30                40                50                60                70                80                90             100             110             120             130             140             150             160             170             180             190             200
 const char weekdaymeal_ingredients_01[] PROGMEM = "Cookbook_1 p. 23 - INGREDIENCE_1, INGREDIENCE_2, INGREDIENCE_3, BEWARE THE LIMIT OF 200 CHARACTERS!";
