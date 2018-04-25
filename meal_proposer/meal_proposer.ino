@@ -29,10 +29,15 @@
 
 // include the proper libraries:
 #include <Wire.h>
+// Probably "Adafruit_LiquidCrystal.h" is required. See here:
+// https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use
 #include "LiquidCrystal.h"
 #include <avr/pgmspace.h>
 
 // Connect via i2c, default address #0 (A0-A2 not jumpered)
+// Probably "Adafruit_LiquidCrystal.h" is required to
+// initialize the LCD this way. See here:
+// https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use
 LiquidCrystal lcd(0);
 
 

@@ -94,10 +94,14 @@
 
 
 #include <Wire.h>
+// Probably "Adafruit_LiquidCrystal.h" is required. See here
+// https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use
 #include "LiquidCrystal.h"
 #include <avr/pgmspace.h>
 
 // Initialize the lcd-display.
+// Probably "Adafruit_LiquidCrystal.h" is required. See here
+// https://learn.adafruit.com/i2c-spi-lcd-backpack/arduino-i2c-use
 LiquidCrystal lcd(0);
 
 // If everything is just living in RAM an array of strings is defined like this:
